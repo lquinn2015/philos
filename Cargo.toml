@@ -3,6 +3,7 @@ name = "philos"
 version = "0.1.0"
 edition = "2021"
 
+
 [profile.dev]
 panic = "abort"
 
@@ -10,3 +11,4 @@ panic = "abort"
 panic = "abort"
 
 [dependencies]
+bootloader = "0.9.8"
